@@ -20,3 +20,11 @@ for i in range(n):
 
 n2 = int(input("enter your number:"))
 
+#Lets do this with alphabets
+
+size = int(input("enter the size of the square: "))
+
+for i in range(size):
+    for j in range(size):
+        print(chr(65+j), end="")
+    print()
