@@ -23,3 +23,12 @@ for i in range (1, 101):
         print("fizzbuzz")
     else:
         print(i)
+
+#Lets do this with alphabets
+
+size = int(input("enter the size of the square: "))
+
+for i in range(size):
+    for j in range(size):
+        print(chr(65+j), end="")
+    print()
