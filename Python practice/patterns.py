@@ -18,7 +18,7 @@ for i in range(n):
     print()
 
 
-n2 = int(input("enter your number:"))
+
 
 #Lets do this with alphabets
 
@@ -27,4 +27,56 @@ size = int(input("enter the size of the square: "))
 for i in range(size):
     for j in range(size):
         print(chr(65+j), end="")
+    print()
+
+#Continue Number pattern
+
+size = int(input())
+n = 1
+
+for i in range(size):
+    for j in range (size):
+        print(n, end=" ")
+        n+=1
+    print()
+
+#Continue alphabet pattern
+
+size = int(input("enter the size of the pattern"))
+
+n = 65
+
+for i in range(size):
+    for j in range(size):
+        print(chr(n), end='')
+        n+=1
+    print()
+
+#Single side triangle pattern
+
+size = int(input("enter the size of the star: "))
+for i in range(size):
+    for j in range(i+1):
+        print("*", end='')
+        i+1
+    print()
+
+#Same question with numbers
+
+size = int(input("enter the size: "))
+for i in range(1, size+1):
+    for j in range(i+1):
+        print("*", end='')
+        i+=1
+    print()
+
+#Floyds triangle pattern 
+size = int(input("enter the size of the triangle:"))
+
+n = 1
+
+for i in range(1, size+1):
+    for j in range(i):
+        print(n, end='')
+        n+=1
     print()
