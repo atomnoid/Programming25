@@ -9,7 +9,7 @@ for j in range (1, n+1): #outer loop which will iterate the code for every line
         else:
             print(i)
 
-#Same question with pattern
+#Same question with star pattern
 n = int(input("Enter the size of the square: "))
 
 for i in range(n):
@@ -65,9 +65,8 @@ for i in range(size):
 
 size = int(input("enter the size: "))
 for i in range(1, size+1):
-    for j in range(i+1):
-        print("*", end='')
-        i+=1
+    for j in range(i):
+        print(i, end='')
     print()
 
 #Floyds triangle pattern 
