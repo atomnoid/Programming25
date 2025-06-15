@@ -69,6 +69,17 @@ for i in range(1, size+1):
         print(i, end='')
     print()
 
+#Same question with charecters
+
+size = int(input("enter the size: "))
+
+n = 65
+
+for i in range(size):
+    for j in range(i+1):
+        print(chr(n+i), end='')
+    print()
+
 #Floyds triangle pattern 
 size = int(input("enter the size of the triangle:"))
 
@@ -79,3 +90,4 @@ for i in range(1, size+1):
         print(n, end='')
         n+=1
     print()
+
