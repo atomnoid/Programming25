@@ -91,3 +91,12 @@ for i in range(1, size+1):
         n+=1
     print()
 
+#Simple triangle pattern with same first number
+
+size = int(input("enter the size of the triangle"))
+n = 1
+for i in range (1, size+1):
+    for j in range(1, i+1):
+        print(j, end=" ")
+    print()
+
