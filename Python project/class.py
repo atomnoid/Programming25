@@ -1,6 +1,8 @@
-
 size = int(input("enter the size: "))
-for i in range(1, size+1):
-    for j in range(i):
-        print(i, end='')
+
+n = 65
+
+for i in range(size):
+    for j in range(i+1):
+        print(chr(n+i), end='')
     print()
