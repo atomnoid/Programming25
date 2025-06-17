@@ -128,3 +128,39 @@ for i in range (1, size+1):
     for k in range(size - i + 1):
         print(i, end=' ')
     print()
+
+
+#same question with charecter
+
+size = int(input("enter your size"))
+n = 65
+for i in range(1, size+1):
+    for j in range(i-1):
+        print(" ", end=' ')
+    for k in range(size-i+1):
+        print(chr(n), end=' ')
+    n+=1  
+    print()
+
+#better way
+
+size = int(input("Enter the number"))
+for i in range(size):
+    for j in range(i):
+        print(" ", end=" ")
+    for k in range(size - i):
+        print(chr(65 + i), end=" ")
+    print()
+
+
+#Pyramid pattern
+
+size = int(input("enter the size of the pyramid: "))
+n=65
+for i in range(size):
+    for j in range(size-i-1):
+        print(" ", end=' ')
+    for k in range(2*i+1):
+        print(chr(n), end=' ')
+    n+=1
+    print()
