@@ -18,8 +18,6 @@ for i in range(n):
     print()
 
 
-
-
 #Lets do this with alphabets
 
 size = int(input("enter the size of the square: "))
