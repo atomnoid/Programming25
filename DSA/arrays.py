@@ -65,3 +65,12 @@ def twosum(arr, target):
 arr = [7, 9, 0, 7 ,6]
 target = 16
 print(twosum(arr, target))
+
+arr = [1, 2, 3, 4, 5]
+total = 0
+
+
+for num in arr:
+    total += num
+
+print("The sum of the array elements is:", total)
